@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,80 +15,200 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Beyonce" translatesAutoresizingMaskIntoConstraints="NO" id="taQ-fX-3lM">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Beyonce" translatesAutoresizingMaskIntoConstraints="NO" id="taQ-fX-3lM">
                                 <rect key="frame" x="66" y="481" width="145" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="145" id="Dy4-zB-4aH"/>
+                                    <constraint firstAttribute="height" constant="128" id="Kec-AP-l0g"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Adele" translatesAutoresizingMaskIntoConstraints="NO" id="vps-HA-JYE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Adele" translatesAutoresizingMaskIntoConstraints="NO" id="vps-HA-JYE">
                                 <rect key="frame" x="212" y="481" width="145" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="1op-lZ-nPw"/>
+                                    <constraint firstAttribute="width" constant="145" id="NDz-Ih-thX"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lady Gaga" translatesAutoresizingMaskIntoConstraints="NO" id="o1O-6d-95e">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lady Gaga" translatesAutoresizingMaskIntoConstraints="NO" id="o1O-6d-95e">
                                 <rect key="frame" x="66" y="612" width="145" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="145" id="XuT-FF-giT"/>
+                                    <constraint firstAttribute="height" constant="128" id="dCU-7Y-bfH"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image=" Rih" translatesAutoresizingMaskIntoConstraints="NO" id="pWj-v0-D3v">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image=" Rih" translatesAutoresizingMaskIntoConstraints="NO" id="pWj-v0-D3v">
                                 <rect key="frame" x="212" y="612" width="145" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="145" id="K2o-16-fiA"/>
+                                    <constraint firstAttribute="height" constant="128" id="ddO-uh-xWE"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Which Diva Are You?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuR-CV-Z8V">
-                                <rect key="frame" x="73" y="293" width="283.00000000000011" height="34.499999999999972"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agK-3R-NaI">
-                                <rect key="frame" x="73" y="327" width="283.00000000000011" height="30.000000000000032"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Begin Personality Quiz"/>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MHa-8J-aE6">
+                                <rect key="frame" x="73" y="293" width="283" height="64.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which Diva Are You?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuR-CV-Z8V">
+                                        <rect key="frame" x="0.0" y="0.0" width="283" height="34.5"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agK-3R-NaI">
+                                        <rect key="frame" x="0.0" y="34.5" width="283" height="30"/>
+                                        <state key="normal" title="Begin Personality Quiz"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.88231773188257179" green="0.89601181458198587" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="o1O-6d-95e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="66" id="5EY-z7-ilf"/>
+                            <constraint firstItem="taQ-fX-3lM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="66" id="D25-Vm-74M"/>
+                            <constraint firstItem="vps-HA-JYE" firstAttribute="top" secondItem="MHa-8J-aE6" secondAttribute="bottom" constant="123.5" id="DAa-s0-thY"/>
+                            <constraint firstItem="o1O-6d-95e" firstAttribute="top" secondItem="taQ-fX-3lM" secondAttribute="bottom" constant="3" id="DD1-k6-oqy"/>
+                            <constraint firstItem="vps-HA-JYE" firstAttribute="top" secondItem="MHa-8J-aE6" secondAttribute="bottom" constant="123.5" id="Fyi-X2-gTQ"/>
+                            <constraint firstItem="MHa-8J-aE6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="GHD-Zr-E6T"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vps-HA-JYE" secondAttribute="trailing" constant="57" id="NBr-eC-Frr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pWj-v0-D3v" secondAttribute="trailing" constant="57" id="Pn5-de-r5E"/>
+                            <constraint firstItem="vps-HA-JYE" firstAttribute="leading" secondItem="taQ-fX-3lM" secondAttribute="trailing" constant="1" id="QEm-x5-4NU"/>
+                            <constraint firstItem="pWj-v0-D3v" firstAttribute="top" secondItem="vps-HA-JYE" secondAttribute="bottom" constant="3" id="RBE-8b-8mL"/>
+                            <constraint firstItem="taQ-fX-3lM" firstAttribute="top" secondItem="MHa-8J-aE6" secondAttribute="bottom" constant="123.5" id="SZ5-gk-Oxa"/>
+                            <constraint firstItem="o1O-6d-95e" firstAttribute="top" secondItem="taQ-fX-3lM" secondAttribute="bottom" constant="3" id="UIG-QU-bLS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="o1O-6d-95e" secondAttribute="bottom" constant="122" id="Z4R-mR-jxC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pWj-v0-D3v" secondAttribute="bottom" constant="122" id="ZZD-Sj-b6a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pWj-v0-D3v" secondAttribute="bottom" constant="122" id="Zt0-W5-rgz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pWj-v0-D3v" secondAttribute="trailing" constant="57" id="c58-Jl-chx"/>
+                            <constraint firstItem="pWj-v0-D3v" firstAttribute="leading" secondItem="o1O-6d-95e" secondAttribute="trailing" constant="1" id="fGZ-ko-6CK"/>
+                            <constraint firstItem="pWj-v0-D3v" firstAttribute="top" secondItem="vps-HA-JYE" secondAttribute="bottom" constant="3" id="hT5-Ba-Oes"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="o1O-6d-95e" secondAttribute="bottom" constant="122" id="iJw-Kn-IJg"/>
+                            <constraint firstItem="taQ-fX-3lM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="66" id="kAj-iQ-iO0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vps-HA-JYE" secondAttribute="trailing" constant="57" id="mHp-Gf-VVp"/>
+                            <constraint firstItem="taQ-fX-3lM" firstAttribute="top" secondItem="MHa-8J-aE6" secondAttribute="bottom" constant="123.5" id="on4-uO-4mz"/>
+                            <constraint firstItem="vps-HA-JYE" firstAttribute="leading" secondItem="taQ-fX-3lM" secondAttribute="trailing" constant="1" id="poH-z7-WjY"/>
+                            <constraint firstItem="o1O-6d-95e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="66" id="xfm-Jw-4mc"/>
+                            <constraint firstItem="pWj-v0-D3v" firstAttribute="leading" secondItem="o1O-6d-95e" secondAttribute="trailing" constant="1" id="yiG-yk-MjH"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <segue destination="D2s-fC-YVE" kind="show" id="40q-gA-Kt3"/>
+                        <segue destination="wLX-Gp-QSS" kind="presentation" id="0bV-56-NvB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="95.652173913043484" y="77.678571428571431"/>
         </scene>
-        <!--View Controller-->
+        <!--Question View Controller-->
         <scene sceneID="oyd-03-Xmb">
             <objects>
-                <viewController id="D2s-fC-YVE" sceneMemberID="viewController">
+                <viewController id="D2s-fC-YVE" customClass="QuestionViewController" customModule="PersonalityQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GnT-op-LLn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bzj-Hm-pvS">
+                                <rect key="frame" x="0.0" y="56" width="414" height="752"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Uc-7H-wld">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="173"/>
+                                        <state key="normal" image=" Rih"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPL-yD-rZi">
+                                        <rect key="frame" x="0.0" y="193" width="414" height="173"/>
+                                        <state key="normal" image="Adele"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMp-Po-g3M">
+                                        <rect key="frame" x="0.0" y="386" width="414" height="173"/>
+                                        <state key="normal" image="Beyonce"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSc-Gi-Ymj">
+                                        <rect key="frame" x="0.0" y="579" width="414" height="173"/>
+                                        <state key="normal" image="Lady Gaga"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="lNC-pM-XNI"/>
                         <color key="backgroundColor" red="0.91085887257134424" green="0.92033462198641103" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="lNC-pM-XNI" firstAttribute="bottom" secondItem="bzj-Hm-pvS" secondAttribute="bottom" id="AUp-tT-YVf"/>
+                            <constraint firstItem="bzj-Hm-pvS" firstAttribute="centerY" secondItem="GnT-op-LLn" secondAttribute="centerY" id="Cva-x1-OfK"/>
+                            <constraint firstItem="bzj-Hm-pvS" firstAttribute="leading" secondItem="lNC-pM-XNI" secondAttribute="leading" id="L8K-s8-hCx"/>
+                            <constraint firstItem="lNC-pM-XNI" firstAttribute="trailing" secondItem="bzj-Hm-pvS" secondAttribute="trailing" id="M8e-tZ-mnO"/>
+                            <constraint firstItem="bzj-Hm-pvS" firstAttribute="top" secondItem="lNC-pM-XNI" secondAttribute="top" id="cYn-2E-0vE"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="X2t-aj-CMb"/>
                     <connections>
-                        <segue destination="BJ4-P5-b9h" kind="show" id="dXL-pK-FDx"/>
+                        <outlet property="adeleButtonLabel" destination="WPL-yD-rZi" id="UvA-pa-JCL"/>
+                        <outlet property="beyonceButtonLabel" destination="IMp-Po-g3M" id="ZPb-Uf-jK3"/>
+                        <outlet property="ladyButtonLabel" destination="KSc-Gi-Ymj" id="jK9-77-7X3"/>
+                        <outlet property="rihannaButtonLabel" destination="4Uc-7H-wld" id="pNI-q3-6nI"/>
+                        <segue destination="BJ4-P5-b9h" kind="show" id="Gut-uL-G2g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pQA-Oc-Xj8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="776.81159420289862" y="77.678571428571431"/>
+            <point key="canvasLocation" x="1686.9565217391305" y="77.678571428571431"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="MxV-rB-XKU">
             <objects>
-                <viewController id="BJ4-P5-b9h" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResultsSegue" id="BJ4-P5-b9h" customClass="ResultViewController" customModule="PersonalityQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Ck-cF-wTM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="You Are Beyonce" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUw-3g-dUo">
+                                <rect key="frame" x="20" y="216" width="374" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Beyonce" translatesAutoresizingMaskIntoConstraints="NO" id="d30-Up-wno">
+                                <rect key="frame" x="89" y="263" width="238" height="228"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3WO-3c-Ozx">
+                                <rect key="frame" x="20" y="499" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Rfr-mk-bnT"/>
                         <color key="backgroundColor" red="0.92414693862760311" green="0.92623173543400461" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="fUw-3g-dUo" firstAttribute="centerY" secondItem="5Ck-cF-wTM" secondAttribute="centerY" id="4vh-5m-i2Q"/>
+                            <constraint firstItem="fUw-3g-dUo" firstAttribute="centerY" secondItem="5Ck-cF-wTM" secondAttribute="centerY" id="Av3-W6-iPT"/>
+                            <constraint firstItem="3WO-3c-Ozx" firstAttribute="centerY" secondItem="5Ck-cF-wTM" secondAttribute="centerY" id="QXx-WN-wDg"/>
+                            <constraint firstItem="3WO-3c-Ozx" firstAttribute="centerY" secondItem="5Ck-cF-wTM" secondAttribute="centerY" id="Yri-Te-Qpv"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="DzN-Gn-4fp"/>
+                    <navigationItem key="navigationItem" id="DzN-Gn-4fp">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="zrS-El-9Su"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TvR-Vw-X5O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1491" y="78"/>
+            <point key="canvasLocation" x="2398.5507246376815" y="77.678571428571431"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="P5H-fY-4fJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wLX-Gp-QSS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="f05-SY-Sd8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="D2s-fC-YVE" kind="relationship" relationship="rootViewController" id="Pew-tT-6R3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eV4-eo-rV8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900" y="78"/>
         </scene>
     </scenes>
     <resources>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8BC1CB4258AE6BD006DE6C0 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC1CB3258AE6BD006DE6C0 /* QuestionViewController.swift */; };
+		F8BC1CB9258AE6E5006DE6C0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC1CB8258AE6E5006DE6C0 /* ResultViewController.swift */; };
+		F8BC1CC9258AEE39006DE6C0 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC1CC8258AEE39006DE6C0 /* QuestionData.swift */; };
 		F8FCC86525749F4F0098487D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCC86425749F4F0098487D /* AppDelegate.swift */; };
 		F8FCC86725749F4F0098487D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCC86625749F4F0098487D /* SceneDelegate.swift */; };
 		F8FCC86925749F4F0098487D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCC86825749F4F0098487D /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8BC1CB3258AE6BD006DE6C0 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		F8BC1CB8258AE6E5006DE6C0 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		F8BC1CC8258AEE39006DE6C0 /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 		F8FCC86125749F4F0098487D /* PersonalityQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalityQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FCC86425749F4F0098487D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8FCC86625749F4F0098487D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,9 +84,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8BC1CC3258AED63006DE6C0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8FCC86825749F4F0098487D /* ViewController.swift */,
+				F8BC1CB3258AE6BD006DE6C0 /* QuestionViewController.swift */,
+				F8BC1CB8258AE6E5006DE6C0 /* ResultViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F8BC1CC4258AEDDC006DE6C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC1CC8258AEE39006DE6C0 /* QuestionData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F8FCC85825749F4F0098487D = {
 			isa = PBXGroup;
 			children = (
+				F8BC1CC4258AEDDC006DE6C0 /* Model */,
+				F8BC1CC3258AED63006DE6C0 /* ViewControllers */,
 				F8FCC86325749F4F0098487D /* PersonalityQuiz */,
 				F8FCC87D25749F540098487D /* PersonalityQuizTests */,
 				F8FCC88825749F540098487D /* PersonalityQuizUITests */,
@@ -103,7 +129,6 @@
 			children = (
 				F8FCC86425749F4F0098487D /* AppDelegate.swift */,
 				F8FCC86625749F4F0098487D /* SceneDelegate.swift */,
-				F8FCC86825749F4F0098487D /* ViewController.swift */,
 				F8FCC86A25749F4F0098487D /* Main.storyboard */,
 				F8FCC87025749F540098487D /* Assets.xcassets */,
 				F8FCC87225749F540098487D /* LaunchScreen.storyboard */,
@@ -262,9 +287,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8FCC86925749F4F0098487D /* ViewController.swift in Sources */,
+				F8BC1CB4258AE6BD006DE6C0 /* QuestionViewController.swift in Sources */,
 				F8FCC86525749F4F0098487D /* AppDelegate.swift in Sources */,
+				F8BC1CC9258AEE39006DE6C0 /* QuestionData.swift in Sources */,
 				F8FCC86725749F4F0098487D /* SceneDelegate.swift in Sources */,
 				F8FCC86F25749F4F0098487D /* PersonalityQuiz.xcdatamodeld in Sources */,
+				F8BC1CB9258AE6E5006DE6C0 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
